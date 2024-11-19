@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <style>
+        .header {
+            height: 80vh;
+            background: url(image/bg_header.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+        }
+
+        .header .banner {
+            text-align: center;
+            color: #fff;
+            padding: 100px 20px;
+        }
+
+        .header .banner h1 {
+            font-size: 80px;
+            font-family: "Host Grotesk", sans-serif;
+            font-optical-sizing: 200px;
+             font-weight: 400;
+            font-style: normal;
+        }
+
+        .header .banner .html {
+            color: #cf372d
+        }
+
+        .header .navbar {
+            width: 80%;
+            background: #cf372d;
+            margin: 0 auto;
+            display: flex;
+            padding: 20px;
+        }
+
+        .header .navbar .logo {
+            width: 40%;
+        }
+
+        .header .navbar .logo img {
+            width: 100px;
+        }
+
+        .header .navbar .menu{
+            width: 60px;
+        }
+        .header .navbar .menu ul{
+            display: flex;
+            list-style: none; /* bỏ dấu ở trước */
+            justify-content: space-around;
+        }
+        .header .navbar .menu ul li a{
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none; /*bỏ dấu gạch chân*/
+            margin-right: 80px;
+            white-space: nowrap; /*bỏ xuống dòng*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="#"> Home</a></li>
+                    <li> <a href="#">About us</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Projects</a></li>
+                    <li> <a href="#">Blog/New</a></li>
+                    <li> <a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="banner">
+                <h1> POWER OF <span class="html"> HTML CSS. </span> </h1>
+                <p> Language can create a lot of beauty on the website </p>
+                <button> Learn more 
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
